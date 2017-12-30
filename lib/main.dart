@@ -20,9 +20,9 @@ class MyApp extends StatelessWidget {
       ),
       home: new MyHomePage(title: 'Garden lights home'),
       routes: <String, WidgetBuilder>{
-        '/a': (BuildContext context) =>
+        '/scheduler': (BuildContext context) =>
         new SchedulerInfoPage(title: 'Scheduler info'),
-        '/b': (BuildContext context) => new SchedulerInfoPage(title: 'page B'),
+        '/settings': (BuildContext context) => new SchedulerInfoPage(title: 'Future settings page'),
         '/about': (BuildContext context) => new AboutPage(),
         '/animation': (BuildContext context) => new LogoApp(),
       },

@@ -2,6 +2,7 @@ name: flutter_app
 description: A new Flutter application.
 
 dependencies:
+  http: '>=0.11.3+12'
   flutter:
     sdk: flutter
 

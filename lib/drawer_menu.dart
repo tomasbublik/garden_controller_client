@@ -18,7 +18,13 @@ class MyDrawerMenu {
               title: new Text('Current schedule program'),
               onTap: () {
                 //Navigator.of(context).pushNamed('/a');
-                Navigator.pushReplacementNamed(context, '/a');
+                Navigator.pushReplacementNamed(context, '/scheduler');
+              },
+            ),
+            new ListTile(
+              title: new Text('Settings'),
+              onTap: () {
+                Navigator.pushReplacementNamed(context, '/settings');
               },
             ),
             new Divider(),
